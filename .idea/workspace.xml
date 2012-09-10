@@ -530,13 +530,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/modules/user/controllers/YumAuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="17" selection-start="870" selection-end="907" vertical-scroll-proportion="-24.428572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
