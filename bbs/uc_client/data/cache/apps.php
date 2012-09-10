@@ -33,5 +33,4 @@ $_CACHE['apps'] = array (
     'synlogin' => '1',
     'extra' => '',
   ),
-  'UC_API' => 'http://uc.orzero.com',
 );
