@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="MobileOptimized" content="320" />
+<style>
+	body { background:#f7f7f7; font-size: 100%; }
+	UL, LI{ list-style:none; padding:0; margin:0; }
+	.xg1 { color: #999999; }
+	.xs8 { font-size: 80%; }
+	.cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .cl { zoom: 1; }
+	.y { float: right; }
+	.txt, .px{ background: #FFF; border: 1px #efefef solid; width: 60%; padding:5px; }
+	.reg_c  UL { margin-bottom: 10px; }
+	.reg_c  UL LI { padding:8px; border: 1px #bababa solid; border-bottom:none;  background: #FFFFFF;}
+	.reg_c  UL LI strong{ width: 90px; display:inline-block; }
+	.reg_c  UL LI:first-child{ border: 1px #bababa solid; border-bottom: none; -webkit-border-top-left-radius: 8px; -webkit-border-top-right-radius: 8px;}
+	.reg_c  UL LI:last-child{ border: 1px #bababa solid; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px;}
+	.secstyle { margin-top: 4px; }
+	.submitbox{ text-align:center; }
+	#registerformsubmit { font-size:100%; padding: 10px 20px; border: 1px #595959 solid; background: -webkit-gradient(linear, 0 0, 0 100%, from(#f3f3f3), to(#dfdfdf)); -webkit-border-top-left-radius: 8px; -webkit-border-top-right-radius: 8px;-webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; }
+</style>
+</head>
+<body>
+<form method="post" autocomplete="off" enctype="multipart/form-data" onsubmit="checksubmit();return false;" action="$_G[siteurl]mobile.php?module=register&version=$_G[mobile_version]&mobilemessage={$_GET[mobilemessage]}&mod=$_GET[mod]">
+	<input type="hidden" name="regsubmit" value="yes" />
+	<input type="hidden" name="formhash" value="{FORMHASH}" />
+	<!--{if $_G['setting']['sendregisterurl']}-->
+		<input type="hidden" name="hash" value="$_GET[hash]" />
+	<!--{/if}-->
+<div class="regbox">
+	<div class="reg_c">
+    <ul>
+	<!--{if $sendurl}-->
+		<li>
+			<label><strong>{lang mobile:email}:</strong></label>
+			<input type="text" class="txt" name="{$_G['setting']['reginput']['email']}" />
+		</li>
+	<!--{else}-->
+		<!--{if $invite && !$invite['uid']}-->
+			<li>
+				<label><strong>{lang mobile:invite_code}:</strong></label>
+				<input type="text" class="txt" name="invitecode" />
+			</li>
+		<!--{/if}-->
+
+		<!--{if empty($invite) && $this->setting['regstatus'] == 2 && !$invitestatus}-->
+			<li>
+				<label><strong>{lang mobile:invite_code}:</strong></label>
+				<input type="text" class="txt" name="invitecode" />
+			</li>
+		<!--{/if}-->
+
+		<li>
+			<label><strong>{lang mobile:username}:</strong></label>
+			<input type="text" class="txt" name="{$_G['setting']['reginput']['username']}" />
+		</li>
+		<li>
+			<label><strong>{lang mobile:password}:</strong></label>
+			<input type="password" class="txt" name="{$_G['setting']['reginput']['password']}" />
+		</li>
+		<li>
+			<label><strong>{lang mobile:password_confirm}:</strong></label>
+			<input type="password" class="txt" name="{$_G['setting']['reginput']['password2']}" />
+		</li>
+		<li>
+			<label><strong>{lang mobile:email}:</strong></label>
+			<input type="text" class="txt" name="{$_G['setting']['reginput']['email']}" />
+		</li>
+	<!--{/if}-->
+
+	<!--{if $this->setting['regverify'] == 2}-->
+		<li>
+			<label><strong>{lang mobile:register_message}:</strong></label>
+			<input type="text" class="txt" name="regmessage" />
+		</li>
+	<!--{/if}-->
+
+	<!--{if empty($invite) && $this->setting['regstatus'] == 3}-->
+		<li>
+			<label><strong>{lang mobile:invite_code}:</strong></label>
+			<input type="text" class="txt" name="invitecode" />
+		</li>
+	<!--{/if}-->
+
+	<!--{loop $_G['cache']['fields_register'] $field}-->
+		<!--{if $htmls[$field['fieldid']]}-->
+			<li>
+				$field[title]:
+				$htmls[$field['fieldid']]
+			</li>
+		<!--{/if}-->
+	<!--{/loop}-->
+</ul>
+	<!--{if $seccodecheck || $secqaacheck}-->
+    	{eval $sechash = random(8);}
+		<input type="hidden" class="txt" name="sechash" value="$sechash" />
+    <ul>
+		<!--{if $seccodecheck}-->
+			<li>
+				<label><strong>{lang mobile:seccode}:</strong></label>
+				<span id="seccode"></span>
+				<a href="javascript:;" onclick="updateseccode()">{lang mobile:change_seccode}</a>
+				<input type="text" class="txt" name="seccodeverify" />
+				<script type="text/javascript">
+                var updateseccode = function () {document.getElementById('seccode').innerHTML = '<img id="seccode" src="$_G[siteurl]mobile.php?module=seccode&sechash=$sechash&version={if empty($_GET['secversion'])}1{else}$_GET['secversion']{/if}&random=' + Math.random() + '" />';}
+                updateseccode();
+                </script>
+            </li>
+		<!--{/if}-->
+		<!--{if $secqaacheck}-->
+			<li>
+				<label><strong>{lang mobile:secqaa}:</strong></label>
+				{eval require_once libfile('function/seccode');}
+				{echo make_secqaa($sechash);}
+				<input type="text" class="txt" name="secanswer" />
+			</li>
+		<!--{/if}-->
+        </ul>
+	<!--{/if}-->
+    <ul>
+        <li class="submitbox">
+        	<button type="submit" id="registerformsubmit">{lang submit}</button>
+        </li>
+    </ul>
+	</div>
+</div>
+</form>
+</body>
+</html>
