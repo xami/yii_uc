@@ -1,6 +1,11 @@
 <?php
 class WebUser extends CWebUser
 {
+    public $registrationUrl=array('site/register');
+    public $recoveryUrl=array('site/recovery');
+    public $returnUrl=array('site/logout');
+
+
     public function afterLogin($fromCookie)
     {
         parent::afterLogin ( $fromCookie );

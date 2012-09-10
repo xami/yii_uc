@@ -45,9 +45,24 @@ $this->breadcrumbs=array(
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
 
+    <div id="nav" class="row">
+        <p class="hint">
+            <?php echo CHtml::link("注册",Yii::app()->user->registrationUrl); ?>
+            |
+            <?php echo CHtml::link("找回密码",Yii::app()->user->recoveryUrl); ?>
+        <div id="append_parent"><div id="ls_fastloginfield_ctrl_menu" class="sltm" style="display: none; width: 40px;"><ul><li class="current">用户名</li><li>Email</li></ul></div></div>
+        </p>
+    </div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Login'); ?>
 	</div>
+
+
+
+    <p id="backtoblog">
+        <a title="不知道自己在哪？" href="/">← 返回首页</a>
+    </p>
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->

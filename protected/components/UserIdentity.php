@@ -30,15 +30,17 @@ class UserIdentity extends CUserIdentity
             {
                 $user = new user;
                 $user->username = $username;
-                $user->password = md5($password);
+                $user->password = User::encrypting($password);
                 $user->email = $email;
                 $user->id = $uid;
+                $user->activkey=User::encrypting(microtime().$model->password);
                 $user->save();
 
                 $user->refresh();
             }
 
             $this->username = $user->username;
+            $user->password = User::encrypting($password);
             $this->id = $user->id;
 
 //            $user->last_login_time = $user->this_login_time;

@@ -115,7 +115,7 @@ class RegisterForm extends CFormModel
         {
             $model = new user;
             $model->attributes = $_POST['RegisterForm'];
-            $model->password = md5($_POST['RegisterForm']['password']);
+            $model->password = User::encrypting($_POST['RegisterForm']['password']);
             $model->id = $uid;
 
             return $model->save();

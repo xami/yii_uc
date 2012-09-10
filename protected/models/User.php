@@ -10,6 +10,7 @@
  * @property string $email
  * @property string $last_login_time
  * @property string $last_login_ip
+ * @property string $activkey
  * @property integer $superuser
  */
 class User extends CActiveRecord
@@ -22,6 +23,16 @@ class User extends CActiveRecord
         if (in_array($place, $user->captcha))
             return $user->captcha[$place];
         return false;
+    }
+
+    public static function encrypting($string="") {
+        $hash = 'md5';
+        if ($hash=="md5")
+            return md5($string);
+        if ($hash=="sha1")
+            return sha1($string);
+        else
+            return hash($hash,$string);
     }
 
 	/**
@@ -50,15 +61,15 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password, email', 'required'),
+			array('username, password, email, activkey', 'required'),
 			array('superuser', 'numerical', 'integerOnly'=>true),
 			array('username, last_login_ip', 'length', 'max'=>20),
-			array('password', 'length', 'max'=>128),
+			array('password, activkey', 'length', 'max'=>128),
 			array('email', 'length', 'max'=>32),
 			array('last_login_time', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password, email, last_login_time, last_login_ip, superuser', 'safe', 'on'=>'search'),
+			array('id, username, password, email, last_login_time, last_login_ip, activkey, superuser', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -85,6 +96,7 @@ class User extends CActiveRecord
 			'email' => 'Email',
 			'last_login_time' => 'Last Login Time',
 			'last_login_ip' => 'Last Login Ip',
+			'activkey' => 'Activkey',
 			'superuser' => 'Superuser',
 		);
 	}
@@ -106,6 +118,7 @@ class User extends CActiveRecord
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('last_login_time',$this->last_login_time,true);
 		$criteria->compare('last_login_ip',$this->last_login_ip,true);
+		$criteria->compare('activkey',$this->activkey,true);
 		$criteria->compare('superuser',$this->superuser);
 
 		return new CActiveDataProvider($this, array(

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/protected/components/WebUser.php" description="//        if ($count &gt; 0) {&#10;//            foreach ..." line="14" />
+    <bookmark url="file://$PROJECT_DIR$/protected/components/WebUser.php" description="//        if ($count &gt; 0) {&#10;//            foreach ..." line="19" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a894a13c-d952-4849-b1ea-131e28d33333" name="Default" comment="" />
@@ -25,95 +25,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <file leaf-file-name="UserIdentity.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="30" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-5.607143">
+            <state line="21" column="8" selection-start="646" selection-end="719" vertical-scroll-proportion="-8.142858">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/vendors/uc_client/data/cache/apps.php">
+      <file leaf-file-name="UserRecoveryForm.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/UserRecoveryForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="22" selection-start="682" selection-end="682" vertical-scroll-proportion="0.7470511">
-              <folding>
-                <marker date="1347253295752" expanded="true" signature="414:463" placeholder="..." />
-                <marker date="1347253295752" expanded="true" signature="884:1222" placeholder="..." />
-                <marker date="1347253295752" expanded="true" signature="990:1214" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/uc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="34" selection-start="1042" selection-end="1042" vertical-scroll-proportion="-7.5283017">
+            <state line="43" column="0" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-29.178572">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ucenter.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/vendors/ucenter.php">
+      <file leaf-file-name="UserChangePassword.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/UserChangePassword.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="22" column="5" selection-start="704" selection-end="704" vertical-scroll-proportion="-14.928572">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/vendors/uc_client/client.php">
+      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="179" column="70" selection-start="5471" selection-end="5471" vertical-scroll-proportion="-69.53571">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
+      <file leaf-file-name="loginsuc.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/views/user/loginsuc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="10" column="71" selection-start="404" selection-end="404" vertical-scroll-proportion="0.24901704">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UcController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/UcController.php">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="-11.535714">
+            <state line="36" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="-0.6785714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UcUserIdentity.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/UcUserIdentity.php">
+      <file leaf-file-name="WebUser.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/components/WebUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="27" selection-start="1707" selection-end="1707" vertical-scroll-proportion="-17.642857">
+            <state line="5" column="40" selection-start="179" selection-end="179" vertical-scroll-proportion="-3.392857">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/uc.php">
+      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/user/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.321428">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UcApplication.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/UcApplication.php">
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/user/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="53.964287">
+            <state line="51" column="60" selection-start="1423" selection-end="1441" vertical-scroll-proportion="-12.214286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changepassword.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/user/changepassword.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="-4.75">
               <folding />
             </state>
           </provider>
@@ -129,22 +125,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/vendors/uc.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/loginsuc.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/logoutsuc.php" />
-        <option value="$PROJECT_DIR$/api/uc.php" />
-        <option value="$PROJECT_DIR$/protected/components/UcApplication.php" />
-        <option value="$PROJECT_DIR$/protected/vendors/ucenter.php" />
         <option value="$PROJECT_DIR$/protected/views/user/register.php" />
-        <option value="$PROJECT_DIR$/protected/components/RegisterForm.php" />
-        <option value="$PROJECT_DIR$/protected/models/User.php" />
-        <option value="$PROJECT_DIR$/protected/components/UserIdentity.php" />
-        <option value="$PROJECT_DIR$/protected/models/LoginForm.php" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
-        <option value="$PROJECT_DIR$/protected/components/WebUser.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/UcController.php" />
         <option value="$PROJECT_DIR$/protected/components/UcUserIdentity.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/login.php" />
+        <option value="$PROJECT_DIR$/protected/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/protected/views/user/recovery.php" />
+        <option value="$PROJECT_DIR$/protected/models/User.php" />
+        <option value="$PROJECT_DIR$/protected/components/UserIdentity.php" />
+        <option value="$PROJECT_DIR$/protected/components/RegisterForm.php" />
+        <option value="$PROJECT_DIR$/protected/models/UserRecoveryForm.php" />
+        <option value="$PROJECT_DIR$/protected/models/UserChangePassword.php" />
+        <option value="$PROJECT_DIR$/protected/views/user/changepassword.php" />
+        <option value="$PROJECT_DIR$/protected/components/WebUser.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/views/user/loginsuc.php" />
       </list>
     </option>
   </component>
@@ -241,7 +237,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,11 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uc_client" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,45 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uc_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii_uc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii_uc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uc_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,24 +296,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii_uc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii_uc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,10 +344,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\yii_uc\protected\models" />
+      <recent name="E:\yii_uc\protected\views\user" />
       <recent name="E:\yii_uc\protected\vendors" />
       <recent name="E:\yii_uc\protected\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\yii_uc\protected\views\user" />
       <recent name="E:\yii_uc\protected\components" />
     </key>
   </component>
@@ -459,9 +402,9 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33293557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2124105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2893031" sideWeight="0.31861576" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2893031" sideWeight="0.6670644" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24068071" sideWeight="0.7875895" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2893031" sideWeight="0.3341289" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -530,37 +473,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/ContactForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/WebUser.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/UcUserIdentity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="368" selection-end="368" vertical-scroll-proportion="-2.2075472">
+        <state line="42" column="54" selection-start="1325" selection-end="1325" vertical-scroll-proportion="-5.535714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="35" selection-start="1680" selection-end="1703" vertical-scroll-proportion="-18.428572">
+        <state line="67" column="40" selection-start="1594" selection-end="1594" vertical-scroll-proportion="-16.035715">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/RegisterForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="34" selection-start="2813" selection-end="2813" vertical-scroll-proportion="-6.5094337">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/vendors/uc_client/client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="117" column="47" selection-start="3616" selection-end="3632" vertical-scroll-proportion="-20.464285">
           <folding />
         </state>
       </provider>
@@ -572,70 +508,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/yii/framework/web/CController.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/user/recovery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1093" column="23" selection-start="41800" selection-end="41800" vertical-scroll-proportion="0.34533334">
+        <state line="27" column="9" selection-start="849" selection-end="849" vertical-scroll-proportion="-18.321428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/UcUserIdentity.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/user/changepassword.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="27" selection-start="1707" selection-end="1707" vertical-scroll-proportion="-17.642857">
+        <state line="7" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="-4.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/UcController.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/UserChangePassword.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="-11.535714">
+        <state line="22" column="5" selection-start="704" selection-end="704" vertical-scroll-proportion="-14.928572">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/UcApplication.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="53.964287">
+        <state line="21" column="8" selection-start="646" selection-end="719" vertical-scroll-proportion="-8.142858">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/uc.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/user/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="51" column="60" selection-start="1423" selection-end="1441" vertical-scroll-proportion="-12.214286">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/vendors/ucenter.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="36" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="-0.6785714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/uc.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/WebUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="34" selection-start="1042" selection-end="1042" vertical-scroll-proportion="-7.5283017">
+        <state line="5" column="40" selection-start="179" selection-end="179" vertical-scroll-proportion="-3.392857">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/UserRecoveryForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-5.607143">
+        <state line="43" column="0" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-29.178572">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/vendors/uc_client/data/cache/apps.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/user/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="22" selection-start="682" selection-end="682" vertical-scroll-proportion="0.7470511">
-          <folding>
-            <marker date="1347253295752" expanded="true" signature="414:463" placeholder="..." />
-            <marker date="1347253295752" expanded="true" signature="884:1222" placeholder="..." />
-            <marker date="1347253295752" expanded="true" signature="990:1214" placeholder="..." />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.321428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="70" selection-start="5471" selection-end="5471" vertical-scroll-proportion="-69.53571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/user/loginsuc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="71" selection-start="404" selection-end="404" vertical-scroll-proportion="0.24901704">
+          <folding />
         </state>
       </provider>
     </entry>
