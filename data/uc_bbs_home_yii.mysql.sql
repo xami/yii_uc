@@ -55821,11 +55821,12 @@ CREATE TABLE IF NOT EXISTS `uc_user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(20) NOT NULL,
   `password` varchar(128) NOT NULL,
-  `email` varchar(32) NOT NULL,
+  `email` varchar(128) NOT NULL,
   `last_login_ip` varchar(20) NOT NULL DEFAULT '0',
   `last_login_time` varchar(10) NOT NULL DEFAULT '0',
   `activkey` varchar(128) NOT NULL,
   `superuser` int(2) NOT NULL DEFAULT '0',
+  `status` int(2) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
@@ -55833,8 +55834,8 @@ CREATE TABLE IF NOT EXISTS `uc_user` (
 -- 转存表中的数据 `uc_user`
 --
 
-INSERT INTO `uc_user` (`id`, `username`, `password`, `email`, `last_login_ip`, `last_login_time`, `activkey`, `superuser`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@admin.com', '127.0.0.1', '1347289810', '21232f297a57a5a743894a0e4a801fc3', 0);
+INSERT INTO `uc_user` (`id`, `username`, `password`, `email`, `last_login_ip`, `last_login_time`, `activkey`, `superuser`, `status`) VALUES
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@admin.com', '127.0.0.1', '1347289810', '21232f297a57a5a743894a0e4a801fc3', 0, 1);
 
 -- --------------------------------------------------------
 
